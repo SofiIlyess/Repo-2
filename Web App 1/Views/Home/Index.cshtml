@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="~/css/main.css">
 </head>
 <body>
-
+    
     <!-- Start Header Area -->
     <header class="default-header">
         <nav class="navbar navbar-expand-lg  navbar-light">
@@ -48,7 +48,7 @@
                     <ul class="navbar-nav">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#service">Service</a></li>
-                        <li><a href="#project">project</a></li>
+                        <li><a href="~/Views/Home/Products.cshtml">produits</a></li>
                         <li><a href="#blog">blog</a></li>
                         <li><a href="#team">team</a></li>
                         <!-- Dropdown -->
@@ -205,6 +205,7 @@
                             <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have <br> allowed humanity to create slimmer, more portable technology.</p>
                         </div>
                     </div>
+                    <div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="display: none;">prev</div><div class="owl-next" style="display: none;">next</div></div><div class="owl-dots" style=""><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div>
                 </div>
             </div>
         </div>
@@ -490,8 +491,13 @@
 
             <div class="row footer-bottom d-flex justify-content-between">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">Copyright &copy;
-                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                </p>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 <div class="col-lg-4 col-sm-12 footer-social">
                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -509,10 +515,11 @@
     <script src="~/js/vendor/bootstrap.min.js"></script>
     <script src="~/js/jquery.ajaxchimp.min.js"></script>
     <script src="~/js/parallax.min.js"></script>
-    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
     <script src="~/js/jquery.sticky.js"></script>
     <script src="~/js/jquery.DonutWidget.min.js"></script>
     <script src="~/js/jquery.magnific-popup.min.js"></script>
     <script src="~/js/main.js"></script>
 </body>
 </html>
+

@@ -11,8 +11,6 @@ namespace Web_App_1.Controllers
         public ActionResult Index()
         {
             return View();
-            // Comment Ilyess 2
-            //momo comment
         }
 
         public ActionResult About()
@@ -28,5 +26,16 @@ namespace Web_App_1.Controllers
 
             return View();
         }
+
+        public ActionResult Products()
+        {
+            return View();
+        }
+
+        public ActionResult SingleProductReview()
+        {
+            return View();
+        }
+
     }
 }
